@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+header {
+  padding: 24px;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  gap: 4px;
+}
+.img {
+  height: 20px;
+  width: 36px;
+}
+.menu-header {
+  display: flex;
+  gap: 24px;
+}
+
+.button {
+  color: #67c8b9;
+  height: 28px;
+  padding: 0 8px;
+  background-color: #fff;
+  border-color: #67c8b9;
+  border-radius: 4px;
+  border: 1px solid #dadada;
+}
+
+main {
+}
+.main-header {
+  display: flex;
+  background-image: url(./asset/testi-pet.png);
+}
+
+.main-header-left {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+
+  width: 100%;
+}
+.introduce {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.h4-header {
+  font-size: 36px;
+  color: #dadde3;
+}
+.h1-header {
+  font-size: 56px;
+}
+.btn-primary {
+  height: 36px;
+  min-width: 80px;
+  max-width: 120px;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #67c8b9;
+}
+.button-second {
+  height: 36px;
+  min-width: 80px;
+
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  color: #007aff;
+  background-color: #e6f2ff;
+}
+.btn-icon {
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.personal-detail {
+  /* display: flex; */
+  gap: 8px;
+}
+.detail {
+  display: flex;
+  justify-content: space-around;
+  gap: 400px;
+  padding: 24px;
+}
+.detail-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.detail-right {
+  display: flex;
+}
+.detail-right-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.image-languages img {
+  height: 36px;
+  width: 50px;
+}
+
+.image-languages {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.group1 {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.group2 {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.group-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dadada;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 10px;
+}
+.header-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 16px;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  margin-bottom: 36px;
+}
+
+.category {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+.group-project-top img {
+  height: 36px;
+  width: 36px;
+}
+.group-project-bottom img {
+  height: 36px;
+  width: 36px;
+}
+.group-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.group-project-top {
+  display: flex;
+  gap: 56px;
+}
+.group-project-bottom {
+  display: flex;
+  gap: 56px;
+}
+.form-contact {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 36px;
+}
+form {
+  border: 1px solid #dadada;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 24px;
+  border: none;
+}
+.form {
+  display: flex;
+  gap: 24px;
+}
+
+.left-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 24px;
+}
+
+input {
+  height: 36px;
+  padding: 0 16px;
+  border: 1px solid #dadada;
+  outline: none;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+.right-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 12px;
+}
+.right-form img {
+  height: 100px;
+  width: 100px;
+}
+.item {
+  display: flex;
+  gap: 16px;
+}
+.item-project {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 36px;
+  background-color: #172d51;
+  color: #596a82;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.group-footer {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 36px;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.item-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
